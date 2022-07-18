@@ -6,7 +6,8 @@
     "build": "vite build",
     "lint": "vue-cli-service lint",
     "dev": "vite",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "husky install"
   },
   "dependencies": {
     "ant-design-vue": "^3.2.10",
