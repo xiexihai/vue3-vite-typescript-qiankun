@@ -21,4 +21,4 @@ module.exports = {
     'type-case': [2, 'always', 'lowerCase'],
     'subject-empty': [2, 'never'],
   },
-};
+}

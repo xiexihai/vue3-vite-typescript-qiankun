@@ -10,15 +10,10 @@
     "preview": "vite preview",
     "prepare": "husky install"
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
-    "src/**/*.{ts, vue}": [
-      "eslint --ext .ts,.vue --fix ./src"
+    "src/**/*.ts": [
+      "eslint --fix --ext .ts",
+      "prettier --write"
     ]
   },
   "dependencies": {
