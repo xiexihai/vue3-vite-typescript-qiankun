@@ -7,7 +7,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 let id = 100
-var adsd = 'asd'
+var adsd = 'asda'
 console.log('adasd')
 interface IList {
   id: number

@@ -1,0 +1,3 @@
+{
+  "src/*.{ts,vue}": "eslint -c ./.eslintrc.commit.json --fix --max-warnings 0"
+}
