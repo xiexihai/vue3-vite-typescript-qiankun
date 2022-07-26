@@ -11,9 +11,8 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "src/**/*.ts": [
-      "eslint --fix --ext .ts",
-      "prettier --write"
+    "src/*{.ts, .vue}": [
+      "yarn lint"
     ]
   },
   "dependencies": {

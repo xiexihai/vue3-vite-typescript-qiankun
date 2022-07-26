@@ -10,10 +10,11 @@
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component'
-import Header from '@layout/Header.vue';
+import Header from '@layout/Header.vue'
 import Sidebar from '@layout/Sidebar.vue'
 import Main from '@layout/Main.vue'
-var a = '2';
+var a = '2'
+console.log('asd')
 @Options({
   components: {
     Header,
