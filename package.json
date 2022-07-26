@@ -10,11 +10,6 @@
     "preview": "vite preview",
     "prepare": "husky install"
   },
-  "lint-staged": {
-    "src/*{.ts, .vue}": [
-      "yarn lint"
-    ]
-  },
   "dependencies": {
     "ant-design-vue": "^3.2.10",
     "vue": "^3.2.25",
