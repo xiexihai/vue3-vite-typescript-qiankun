@@ -9,8 +9,8 @@ export default defineConfig({
     // 配置别名
     alias: [
       { find: '@', replacement: resolve(__dirname, './src') },
-      { find: '@views', replacement: resolve(__dirname, './src/views') },
       { find: '@layout', replacement: resolve(__dirname, './src/layout') },
+      { find: '@views', replacement: resolve(__dirname, './src/views') },
     ],
   },
   lintOnSave: process.env.NODE_ENV !== 'production',

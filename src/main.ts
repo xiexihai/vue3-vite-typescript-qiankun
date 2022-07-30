@@ -3,7 +3,7 @@ import App from './App.vue'
 import router from './router'
 import Antd from 'ant-design-vue'
 import 'ant-design-vue/dist/antd.css'
-const a = '1'
-
+import runApps from './subApps'
+runApps()
 const app = createApp(App).use(Antd).use(router)
-app.mount('#app')
+app.mount('#root')
